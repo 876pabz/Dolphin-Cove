@@ -1,8 +1,45 @@
-body {
-  padding: 50px;
+body{
+  /* padding: 10px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ 
 }
 
 a {
   color: #00B7FF;
+}
+
+.slider{
+  width: 85%;
+  margin: auto;
+  margin-right: auto;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+
+.ribbon{
+  background-color: blue;
+  text-align: center;
+  color: white;
+  padding-top:5px;
+}
+
+.info{
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.programs{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.card-img-top{
+  height: 100%;
+}
+.card-body{
+ background-color: rgb(1, 214, 200);
 }
