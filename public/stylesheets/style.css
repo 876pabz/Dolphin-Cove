@@ -8,26 +8,32 @@ a {
   color: #00B7FF;
 }
 
-.slider{
+.nav-pills{
+  
+  background-color: #0095FF;
+  padding: 20px;
+}
+
+/* .slider{
   width: 85%;
   margin: auto;
   margin-right: auto;
   padding-top: 4%;
   padding-bottom: 3%;
-}
+} */
 
 .ribbon{
-  background-color: blue;
+  background-color: #0051A6;
   text-align: center;
   color: white;
-  padding-top:5px;
+  padding:20px;
 }
 
 .info{
   margin: auto;
   text-align: center;
   width: 80%;
-  padding-bottom: 20px;
+  padding: 30px;
 }
 
 .programs{
@@ -35,11 +41,23 @@ a {
   margin: auto;
   justify-content: space-evenly;
   width: 90%;
+  padding-bottom: 40px;
 }
 
+.card{
+  box-shadow: 3px 3px 10px #b2aea9;
+}
 .card-img-top{
   height: 100%;
 }
 .card-body{
- background-color: rgb(1, 214, 200);
+ background-color:#0094E8;
+}
+
+.img-responsive{
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 3px 3px 10px #b2aea9;
 }
